@@ -11,11 +11,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  Publish your podcasts everywhere.
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+  <header>
+    <img src="./assets/desktop/logo.svg" alt="Pod logo">
+  </header>
 
-  Request access
+  <main>
+    <h1>Publish your podcasts everywhere.</h1>
+
+    <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+
+    <div class="info">
+      <div class="logos">
+        <img src="./assets/desktop/spotify.svg" alt="Spotify">
+        <img src="./assets/desktop/apple-podcast.svg" alt="Apple podcast">
+        <img src="./assets/desktop/google-podcasts.svg" alt="Google podcasts">
+        <img src="./assets/desktop/pocket-casts.svg" alt="Pocket casts">
+      </div>
+
+      <form class="form" novalidate>
+        <input type="email" name="email" id="email" class="form__email form__email-error--active">
+        <p class="form__error form__error--active">Wrong email address</p>
+        <button type="submit">Request access</button>
+      </form>
+    </div>
+  </main>
+
 </body>
 </html>
