@@ -100,4 +100,64 @@ main .form button {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(./assets/tablet/image-host.jpg), url(./assets/desktop/bg-pattern-dots.svg);
+    background-position: right top, 1.875rem bottom;
+    background-blend-mode: unset;
+    background-size: auto;
+  }
+
+  header img {
+    margin: 3.875rem auto 9.5rem 2.4375rem;
+  }
+
+  main {
+    width: max(80%, 635px);
+    margin: 0 5.875rem 9.5625rem 2.4375rem;
+    background-color: #121726;
+    padding: 5.8125rem 0 9.5625rem;
+  }
+  main h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.9375rem;
+    text-align: left;
+  }
+  main > p {
+    width: max(60%, 445px);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: left;
+  }
+  main .info {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .info .logos {
+    min-height: 29px;
+    width: max(70%, 536px);
+    margin-bottom: 0;
+  }
+  main .info .logos img {
+    width: auto !important;
+  }
+  main .form {
+    width: max(60%, 427px);
+    margin-bottom: 4rem;
+    position: relative;
+  }
+  main .form__email {
+    height: 3.5rem;
+  }
+  main .form button {
+    width: 10.125rem;
+    height: 2.875rem;
+    position: absolute;
+    margin: 5px;
+    top: 0;
+    right: 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
