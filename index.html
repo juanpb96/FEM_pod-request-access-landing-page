@@ -9,6 +9,7 @@
   <title>Frontend Mentor | Pod request access landing page</title>
 
   <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
 
@@ -17,7 +18,7 @@
   </header>
 
   <main>
-    <h1>Publish your podcasts everywhere.</h1>
+    <h1>Publish your podcasts <strong>everywhere.</strong></h1>
 
     <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
 
@@ -30,9 +31,9 @@
       </div>
 
       <form class="form" novalidate>
-        <input type="email" name="email" id="email" class="form__email form__email-error--active">
-        <p class="form__error form__error--active">Wrong email address</p>
-        <button type="submit">Request access</button>
+        <input type="email" name="email" id="email" placeholder="Email address" class="form__email form__email-error--active">
+        <p class="form__error"></p>
+        <button type="submit">Request Access</button>
       </form>
     </div>
   </main>
