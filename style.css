@@ -187,6 +187,9 @@ main .form button {
   main .form__error--active {
     visibility: visible;
   }
+  main .form button:hover {
+    background-color: #B3FFE2;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

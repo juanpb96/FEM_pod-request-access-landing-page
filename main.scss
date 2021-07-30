@@ -213,6 +213,12 @@ main {
                     visibility: visible;
                 }
             }
+
+            button {
+                &:hover {
+                    background-color: #B3FFE2;
+                }
+            }
         }
     }
 }
