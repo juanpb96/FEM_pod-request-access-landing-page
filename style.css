@@ -162,7 +162,7 @@ main .form button {
 @media only screen and (min-width: 1200px) {
   body {
     background-image: url(./assets/desktop/bg-pattern-dots.svg), url(./assets/desktop/image-host.jpg);
-    background-position: right 89%, right center;
+    background-position: right 90%, right center;
     background-blend-mode: none, unset;
     background-size: auto, auto;
   }
@@ -173,7 +173,7 @@ main .form button {
 
   main {
     width: max(35%, 723px);
-    margin: 0 auto 0 max(8%, 165px);
+    margin: 0 auto 0 max(8%, 8.125rem);
   }
   main .form {
     margin-bottom: calc(4rem - 0.875rem - 0.5rem);
