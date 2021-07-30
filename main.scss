@@ -180,3 +180,39 @@ main {
         }
     }
 }
+
+// Desktop
+@media only screen and (min-width: 1200px) {
+    body {
+        background-image: url(./assets/desktop/bg-pattern-dots.svg), url(./assets/desktop/image-host.jpg);
+        background-position: right 89%, right center;
+        background-blend-mode: none, unset;
+        background-size: auto, auto;
+    }
+
+    header{
+        img {
+           margin: max(5%, 6.375rem) auto 6.4375rem max(8%, 10.3125rem);
+        }
+    }
+
+    main {
+        width: max(35%, 723px);
+        margin: 0 auto 0 max(8%, 165px);
+
+        .form {
+            margin-bottom: calc(4rem - 0.875rem - 0.5rem);
+
+            &__error {
+                display: block;
+                visibility: hidden;
+                height: 14px;
+                margin-bottom: 0;
+
+                &--active {
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}
